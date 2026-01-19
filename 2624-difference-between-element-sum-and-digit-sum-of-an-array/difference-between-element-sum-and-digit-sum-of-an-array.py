@@ -3,7 +3,6 @@ class Solution(object):
         element = sum(nums)
         digit = 0
         for i in nums:
-            temp = i
             while i>0:
                 digit += i%10
                 i=i//10
